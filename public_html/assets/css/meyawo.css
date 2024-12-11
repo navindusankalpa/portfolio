@@ -11588,7 +11588,7 @@ pre .code {
 .hamburger--elastic.is-active .hamburger-inner::before {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
-  opacity: 0;
+  opacity: 1; /*0*/
 }
 
 .hamburger--elastic.is-active .hamburger-inner::after {
@@ -11714,10 +11714,10 @@ pre .code {
   background: #6c757d;
 }
 
-@media (min-width: 768px) {
-  .custom-navbar .nav .item {
-    opacity: 0;
-    visibility: hidden;
+/* @media (min-width: 768px) { */
+  /* .custom-navbar .nav .item { */
+   /* opacity: 0; /*Was 0 and hidden*/
+    /* visibility: hidden;
     -webkit-transform: translateY(-50px);
         -ms-transform: translateY(-50px);
             transform: translateY(-50px);
@@ -11728,8 +11728,8 @@ pre .code {
     transition: all, 0.1s;
     -webkit-transition-delay: 0s;
             transition-delay: 0s;
-  }
-}
+  } */
+/* } */
 
 @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(9) {
@@ -11873,6 +11873,13 @@ pre .code {
             transform: translateY(0);
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (min-width: 991.98px){
+  .custom-navbar .hamburger {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 

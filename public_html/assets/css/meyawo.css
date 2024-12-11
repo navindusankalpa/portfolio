@@ -2624,6 +2624,20 @@ textarea.form-control {
   width: 100%;
 }
 
+#custom-primary-button {
+  width: 50%; /* 50% of its parent container */
+    padding: 1% 2%; /* Padding also adjusts relative to the parent size */
+    font-size: clamp(12px, 2vw, 15px);
+    max-width: 150px; /* Prevent it from becoming too large */
+    min-width: 80px; /* Prevent it from shrinking too much */
+    max-height: 60px;
+    min-height: 30%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 @media (min-width: 576px) {
   .form-inline label {
     display: -webkit-box;

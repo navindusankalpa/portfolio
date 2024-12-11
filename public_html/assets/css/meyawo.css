@@ -11138,7 +11138,7 @@ p {
   min-height: 230px;
   border: 1px solid #dee2e6;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .service-card .body {
@@ -11146,8 +11146,8 @@ p {
 }
 
 .service-card .body img.icon {
-  margin-top: 40px;
-  width: 55px;
+  
+  width: 80px;
   margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
@@ -11177,16 +11177,17 @@ p {
 }
 
 .service-card:hover .body img.icon {
-  margin-top: 5px;
-  width: 45px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100px;
+  margin-bottom: 5px;
 }
 
+/*
 .service-card:hover .body .subtitle {
   bottom: 7px;
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /*/ portfolio wrapper */
 .portfolio-card {
@@ -12092,7 +12093,7 @@ pre .code {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 550px;
+  max-width: 650px;
 }
 
 .header .header-content .header-title .up {
@@ -12108,12 +12109,12 @@ pre .code {
   font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
   margin-bottom: 0;
   position: relative;
-  display: block;
+  display: inline;
 }
 
 .header .header-content .header-subtitle {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
-  letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1500)));
+  letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (4000)));
   opacity: .8;
   margin-top: -10px;
   margin-bottom: 20px;

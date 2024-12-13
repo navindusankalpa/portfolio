@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./public_html/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="./public_html/assets/css/meyawo.css">
+    <!-- Font awesome brands -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -46,7 +48,7 @@
                     <a class="link" href="#contact">My Works</a>
                 </li>
                 <li class="item ml-md-3">
-                    <a href="mailto:navindukarunarathne1@gmail.com" class="btn btn-primary">Contact Me</a>
+                    <a href="javascipt:void(0)" id="mailMe" class="btn btn-primary" style="font-weight: 300; border-radius: 10px;">Email&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-envelope"></i></a>
                 </li>
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
@@ -85,11 +87,13 @@
                     <p>
                         Hello! I’m Navindu Sankalpa Karunarathne, a passionate and driven individual with a keen interest in technology and design. I am currently pursuing a BSc in Data Science, which fuels my curiosity about data, algorithms, and how they shape the world around us. With a strong foundation in Computing and Software Engineering, I have worked on a variety of projects that combine coding, problem-solving, and creative design.<br><br>Whether it's building websites, working with databases, or exploring machine learning, I thrive on creating impactful solutions. I am also an enthusiastic learner, constantly exploring new tools and technologies to stay ahead in this fast-evolving field. Outside of technology, I enjoy playing guitar and staying active through karate. As I work towards my career goals, I aim to contribute to innovative projects, develop my skills further, and collaborate with like-minded individuals to make a difference. Thanks for visiting my portfolio, and feel free to reach out!
                     </p>
-                    <a href="./public_html/assets/cv/my_cv.pdf" target="_blank"><button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button></a>
+                    <a href="javascript:void(0)" id="downloadCV"><button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button></a>
                 </div>              
-            </div><!-- end of about wrapper -->
+            </div><!-- end of about wrapper ./public_html/assets/cv/my_cv.pdf-->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
+
+    <hr>
 
     <!-- service section -->
     <section class="section" id="service">
@@ -97,8 +101,8 @@
             <p class="section-subtitle">What Do I Know ?</p>
             <h6 class="section-title mb-6">My Skills</h6>
             <!-- row -->
-            <div class="row mb-4">
-                <div class="col-md-6 col-lg-3">
+            <div class="row">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/python.png" alt="python logo" class="icon">
@@ -106,15 +110,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
-                            <img src="./public_html/assets/imgs/Power-BI.png" alt="powerbi logo" class="icon">
+                            <img src="./public_html/assets/imgs/Power-BI.png" alt="powerbi logo" class="icon img-fluid">
                             <h6 class="title">Power BI</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/c-sharp.png" alt="c# logo" class="icon">
@@ -122,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/c-.png" alt="c++ logo" class="icon">
@@ -133,7 +137,7 @@
             </div>
             <!-- end of row -->
             <div class="row">                
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/arduino_logo.png" alt="arduino logo" class="icon">  
@@ -141,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/ph424p5c6-php-logo-php-logo-transparent-png-stickpng.png" alt="ssms logo" class="icon">  
@@ -149,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/wo406g7f9-wordpress-logo-graphics-amp-logos-wordpress-org.png" alt="ssms logo" class="icon">  
@@ -157,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-xs-6 col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="service-card d-flex justify-content-center align-items-center">
                         <div class="body">
                             <img src="./public_html/assets/imgs/sq6364s5cc-sql-server-logo-sql-server-free-logo-icons.png" alt="ssms logo" class="icon">  
@@ -169,42 +173,41 @@
         </div>
     </section><!-- end of service section -->
 
+    <hr class="mt-4">
+
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
+            <p class="section-subtitle">My Qualifications?</p>
+            <h6 class="section-title mb-6">Education Background</h6>
             <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
+            <div style="gap: 60px;" class="row justify-content-center align-items-center row-2">
+                <div class="col-xs-5 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
                     <a href="#" class="portfolio-card">
-                        <img src="./public_html/assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <img src="./public_html/assets/imgs/channels4_profile.jpg" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Bandaranayake College - Gampaha</h5>
                             </span>                         
                         </span>                     
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-6 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="./public_html/assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img class="portfolio-card-img" src="./public_html/assets/imgs/icbt-fb.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>ICBT</h5>
                             </span>                         
                         </span>                         
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-6 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="./public_html/assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <img class="portfolio-card-img" src="./public_html/assets/imgs/cardiff logo.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Cardiff Met Uni</h5>
                             </span>                         
                         </span>                     
                     </a>
@@ -212,132 +215,44 @@
             </div><!-- end of row -->
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
+    
+    <hr class="mt-4 mb-4">
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Acadamic works ?</p>
+            <h2 class="section-title mb-6">Final Project of My HND</h2>
+            <!-- about wrapper -->
+            <div class="about" style="gap: 30px">
+                
+                <div class="about-img-holder">
+                    <img src="./public_html/assets/imgs/smart_living_logo.png" class="img-fluid shadow-lg" alt="SmartLiving logo" style="border-radius: 25px;">
+                </div>
+                <div class="about-caption">
+                    <h2 class="mb-0">SmartLiving</h2>
+                    <h6 class="mb-4" style="color: #6c757d;">- An Arduino Based Home-Automation System -</h6>
+                    <p>
+                    SmartLiving is an innovative Arduino-based home automation system that integrates seamlessly with an intuitive mobile
+                    app to control various devices in your home. With SmartLiving, you can remotely control doors, lights, and receive
+                    notifications for crucial events such as gas leaks or rainfall, all through a user-friendly app. The system enhances
+                    security, convenience, and safety by providing real-time updates and control over your home’s environment.<br><br>
+                    
+                    The mobile app allows easy registration of new users, with owners having the ability to add sub-users who have limited
+                    access to certain features. While sub-users can interact with basic functions, the owner retains full control, ensuring
+                    flexibility and security for everyone in the household. SmartLiving brings smarter living to your fingertips, making
+                    home automation more accessible and efficient.
+                    </p>
+                    <a href="javascript:void(0)" id="visitFP"><button class="btn-rounded btn btn-outline-secondary mt-4">Visit Project</button></a>
+                </div>              
+            </div><!-- end of about wrapper ./public_html/assets/cv/my_cv.pdf-->
+        </div><!-- end of container -->
+    </section> 
 
     <!-- pricing section -->
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="./public_html/assets/imgs/scooter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="./public_html/assets/imgs/shipped.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="./public_html/assets/imgs/startup.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
+    
+    <!-- end of pricing section -->
 
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="./public_html/assets/imgs/avatar2.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                           
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="./public_html/assets/imgs/avatar3.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                        
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+    <hr/>
     
     <!-- blog section -->
     <section class="section" id="blog">
@@ -408,7 +323,7 @@
                         <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                        <a href="javascript:void(0)"><input type="submit" value="Send Message" class="btn btn-outline-primary rounded"></a>                  
                     </div>
                 </div>  
             </form><!-- end of contact form -->
@@ -420,12 +335,9 @@
         <footer class="footer">       
             <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Navindu Karunarathne :)</a></p>
             <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                <a href="javascript:void(0)" class="link" data-platform="facebook"><i class="ti-facebook"></i></a> 
+                <a href="javascript:void(0)" data-platform="github"><i class="fa-brands fa-github"></i></a>
+                <a href="javascript:void(0)" class="link" data-platform="instagram"><i class="ti-instagram"></i></a> 
             </div>
         </footer>
     </div> <!-- end of page footer -->

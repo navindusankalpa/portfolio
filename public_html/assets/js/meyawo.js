@@ -58,6 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   document.getElementById("downloadCV").addEventListener("click", (event) => {
     event.preventDefault();
-    window.open("./public_html/assets/cv/my_cv.pdf", "_blank");
+    window.open("./public_html/assets/res/my_cv.pdf", "_blank");
   });
 });

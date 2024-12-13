@@ -549,6 +549,10 @@ pre code {
   word-break: normal;
 }
 
+.final-proj-area {
+  height: 50vh;
+}
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -5479,7 +5483,6 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-right: 0.5rem;
   color: #212529;
-  content: "·";
 }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {

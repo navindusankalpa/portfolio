@@ -60,4 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     window.open("./public_html/assets/res/my_cv.pdf", "_blank");
   });
+  document.getElementById("mailMe").addEventListener("click", (event) => {
+    event.preventDefault();
+    window.open("mailto:navindukarunarathne1@gmail.com", "_self");
+  });
 });

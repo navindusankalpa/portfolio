@@ -64,4 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     window.open("mailto:navindukarunarathne1@gmail.com", "_self");
   });
+  document.getElementById("visitFP").addEventListener("click", (event) =>{
+    event.preventDefault();
+    window.open("smartliving.html", "_blank");
+  })
 });

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     
                     blogPost.innerHTML = `
                     <div class="blog-card-header">
-                        <img src="${blog.image_url}" class="blog-card-img img-fluid">
+                        <img src="${blog.image_url}" class="blog-card-img img-list-blog">
                     </div>
                     <div class="blog-card-body mb-0">
                         <h4 class="blog-card-title"><a href="blog.html?id=${encodeURIComponent(blog.id)}">${blog.title}</a></h4>
